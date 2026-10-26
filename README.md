@@ -150,3 +150,4 @@ The VAD, tools, and local Piper model work on ordinary CPU without a graphics ca
 
 MIT; see [LICENSE](LICENSE). Pipecat and provider/model terms remain subject to their respective upstream licenses and service terms.
 "# CareLine" 
+"# CareLine" 
