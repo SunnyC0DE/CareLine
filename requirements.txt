@@ -1,0 +1,8 @@
+pipecat-ai[deepgram,groq,piper,websocket]==1.13.0
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+python-dotenv>=1.0,<2
+pydantic>=2.10,<3
+pytest>=8.3,<9
+pytest-asyncio>=0.24,<2
+httpx>=0.27,<1

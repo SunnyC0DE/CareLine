@@ -1,0 +1,44 @@
+[
+  {
+    "category": "hours",
+    "question": "What are the clinic's opening hours?",
+    "answer": "Willowbend Family Clinic is open Monday through Friday from 9:00 a.m. to 12:00 p.m. and 1:00 p.m. to 5:00 p.m. The clinic is closed on weekends and during the lunch break.",
+    "keywords": "hours opening time schedule weekdays weekend lunch"
+  },
+  {
+    "category": "services",
+    "question": "What services does the clinic offer?",
+    "answer": "The sample clinic offers routine family medicine appointments, preventive health visits, and routine vaccinations. This fictional FAQ does not describe emergency care.",
+    "keywords": "services family medicine preventive health vaccination routine appointments"
+  },
+  {
+    "category": "fees",
+    "question": "What are the appointment fees?",
+    "answer": "In this sample clinic, a routine appointment costs 600 rupees. Vaccination charges vary by vaccine and are confirmed by the clinic team before booking.",
+    "keywords": "fees cost price charges rupees appointment vaccination"
+  },
+  {
+    "category": "booking",
+    "question": "How long is an appointment?",
+    "answer": "Routine appointments are scheduled in 30-minute slots. The receptionist checks current availability before offering a time.",
+    "keywords": "appointment length duration 30 minutes slot availability"
+  },
+  {
+    "category": "policy",
+    "question": "What is the cancellation policy?",
+    "answer": "Please cancel or reschedule at least 24 hours before the appointment when possible. This sample clinic does not charge a cancellation fee.",
+    "keywords": "cancel cancellation reschedule policy notice fee"
+  },
+  {
+    "category": "policy",
+    "question": "Can I book an appointment for someone else?",
+    "answer": "The sample clinic asks the caller to provide the patient's name and to have permission to make the appointment. The receptionist only reads back the details the caller supplied during the current conversation.",
+    "keywords": "book appointment someone else permission name"
+  },
+  {
+    "category": "privacy",
+    "question": "Does the receptionist give medical advice?",
+    "answer": "No. The receptionist can share only clinic information in this FAQ and help with appointment administration. It does not provide medical advice. For emergencies, contact local emergency services or go to an emergency department.",
+    "keywords": "medical advice emergency privacy receptionist"
+  }
+]

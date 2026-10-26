@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: careline-clinic-receptionist
+    runtime: python
+    plan: free
+    buildCommand: >-
+      python -m pip install -r requirements.txt &&
+      curl -fsSL https://nodejs.org/dist/v22.13.1/node-v22.13.1-linux-x64.tar.xz -o /tmp/node.tar.xz &&
+      tar -xJf /tmp/node.tar.xz -C /tmp &&
+      PATH=/tmp/node-v22.13.1-linux-x64/bin:$PATH npm --prefix web ci &&
+      PATH=/tmp/node-v22.13.1-linux-x64/bin:$PATH npm --prefix web run build
+    startCommand: uvicorn backend.careline.app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: LLM_PROVIDER
+        value: groq
+      - key: STT_PROVIDER
+        value: deepgram
+      - key: TTS_PROVIDER
+        value: piper
+      - key: CARELINE_DB_PATH
+        value: /tmp/careline.sqlite3
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DEEPGRAM_API_KEY
+        sync: false
